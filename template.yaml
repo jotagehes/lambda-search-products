@@ -19,7 +19,7 @@ Resources:
       Runtime: nodejs20.x
       Environment:
         Variables:
-          DATABASE_URL: dev
+          DATABASE_URL: postgresql://midas_qbpp_user:UJMqM56lELOlnYGMXJcMIO25CYz2sNEl@dpg-cqnsr2aj1k6c73armha0-a/midas_qbpp
       Architectures:
         - x86_64
       Events:
